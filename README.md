@@ -29,3 +29,24 @@
 Размещение в Git ([Git](https://github.com/), [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/dashboard/overview)) будет плюсом.
 ## Что еще
 Расскажи о себе больше, заполнив [анкету](https://forms.gle/YrYnA8o2gaaHNN6p7)
+
+## Как запустить решение
+
+Создай и активируй виртуальное окружение
+
+```bash
+  python3 -m venv venv && source venv/bin/activate
+```
+
+
+Установи зависимости
+
+```bash
+  pip install -r requirements.txt
+```
+
+Запусти скрипт
+
+```bash
+  python3 main.py
+```
